@@ -47,6 +47,8 @@ public class interfaz extends javax.swing.JFrame {
         jLabel12 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setLocationByPlatform(true);
+        setResizable(false);
 
         panelTrasero.setBackground(new java.awt.Color(255, 255, 255));
         panelTrasero.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
